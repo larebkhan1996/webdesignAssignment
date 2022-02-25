@@ -12,3 +12,6 @@ Bootstrap components used are below:
 8. Toasts
 9. Tooltips
 10. Collapse
+
+------------
+the site link : https://larebkhan1996.github.io/webdesignAssignment/index.html
