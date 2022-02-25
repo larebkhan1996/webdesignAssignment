@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+     <!-- for loading bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    
+    <!-- for loading bootstrap javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- including jquery through CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <!-- Favicon-->
+ <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+ <!-- Font Awesome icons (free version)-->
+ <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+ <!-- Google fonts-->
+ <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+ <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+ <!-- Core theme CSS (includes Bootstrap)-->
+    <title>Portfolio</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav" style="background-color: #943d24 !important;">
+        <div class="container" >
+            <a class="navbar-brand" class="btn btn-primary" id="liveToastBtn" style="color: white !important; font-family: fantasy; font-size:x-large !important;" href="#page-top">Lareb Khan's Portfolio</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" style="background-color: #282612 !important;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" style="color: white !important;" href="#education">Education</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" style="color: white !important;" href="#technical">Technical Skills</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" style="color: white !important;" href="#experience">Experience</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" style="color: white !important;" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+      <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="front end.png" style="height: 3em; width: 3em;" class="rounded me-2" alt="...">
+          <strong class="me-auto">Welcome!</strong>
+          <small>now</small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          Hello! you are at the homepage. 
+        </div>
+      </div>
+    </div>
+    <!-- nav end -->
+    
+    <!--grid start-->
+    <div class="container" style="padding-top: 5em; background-color: #e4ddf4; color: #282612;"> 
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="carousal2.png" class="d-block w-100" style="height: 50rem;" alt="...">
+          </div>
+          <div class="carousel-item active">
+            <img src="carousal1.png" class="d-block w-100" style="height: 50rem;"alt="...">
+          </div>
+          
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <!--<img src="photo.jpeg"  style="height: 40em; "> -->
+          <div class="card" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="A picture of Lareb Khan with a name">
+            <img src="photo.jpeg" class="card-img-top" alt="lareb">
+            <div class="card-body">
+              <h5 class="card-title">Lareb Khan</h5>
+              <p class="card-text">Front-end Developer</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+         
+          <div class="container d-flex align-items-center flex-column">
+            <h1 class="h1. MDB heading" style="font-family: fantasy; text-align: center; padding-top: 2rem;">ABOUT ME</h1>
+            <!-- Icon Divider-->
+            
+                
+                <div class="divider-custom-icon" style="padding-top: -1rem;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="lead" style="font-weight: 500; font-size: 2vw; ">
+                  <br>Hello! My name is Lareb Khan and I am a Front-end Developer.<br><br>
+                  A Solutions-oriented IT Professional having dedication and creativity to deliver 
+                  excellent solutions with 2+ years of experience in front-end and back-end development.<br><br>
+                </p>  
+                <div id="liveAlertPlaceholder"></div>
+                <button type="button" class="btn btn-primary" id="liveAlertBtn" style="background-color: #943d24;">Check my certifications!</button>
+            <!-- Masthead Subheading-->
+        </div>
+          
+        </div>
+        
+      </div>
+      <div class="container" style="padding-top: 5em; background-color: #e4ddf4; color: #282612;"> 
+     
+      <div class="row">
+        <div class="col-md-8">
+          <div class="container d-flex align-items-center flex-column" id="education">
+            <h1 class="h1. MDB heading" style="font-family: fantasy; text-align: center; padding-top: 2rem;">EDUCATION</h1>
+            <!-- Icon Divider-->
+            
+                
+                <div class="divider-custom-icon" style="padding-top: -1rem;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <table class="lead" style="font-weight: 400; font-size: 2vw; ">
+                           
+                  <tr>
+                    <td><b>Northeastern University, Boston</b><br>Expected Dec 2023<br>Master of Science in Information System <br>Relevant Courses: Web Designing and User Experience Engineering, Java Development, Data management and Database Design<br><br></td>
+                      <br> 
+                  </tr>
+                  
+                  <tr>
+                      <td><b>S.G.S.I.T.S, Indore, India</b><br>July 2015 - April 2019<br>Bachelors in Electronics and Telecommunications Engineering <br>Relevant Courses: Data Structures and Algorithms, Data Communication and Computer Networks, Operating Systems, and Higher Mathematics </td>
+
+                            
+                    </tr>
+                  </table>  
+            
+            <!-- Masthead Subheading-->
+        </div>
+           
+        </div>
+        <div class="col-md-4">
+          <img src="education.png"  class="img-fluid" style="margin-top: 10vw;">
+        </div>
+        </div>
+        
+      </div>
+      <div class="container" style="padding-top: 5em; background-color: #e4ddf4; color: #282612;"> 
+     
+        <div class="row">
+          <div class="col-md-4">
+            <img src="tech skills.png" id="technical"class="img-fluid" style="margin-top: 10vw;">
+             
+          </div>
+          <div class="col-md-8">
+            
+            <div class="container d-flex align-items-center flex-column" id="education">
+              <h1 class="h1. MDB heading" style="font-family: fantasy; text-align: center; padding-top: 2rem;">TECHNICAL SKILLS</h1>
+              <!-- Icon Divider-->
+              
+                  
+                  <div class="divider-custom-icon" style="padding-top: -1rem;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                  
+                    <div class="accordion" id="accordionExample" class="lead" style="font-weight: 400; width:40vw; font-size: 1.5em;margin-top: 1em; background-color:#e4ddf4 !important">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" style="font-size: 2vw;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Programming Languages
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                           <p style="font-size: 2vw;">Java, C, HTML, CSS, Javascript, Jquery, MySQL</p></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" style="font-size: 2vw;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Operating Systems
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                           <p style="font-size: 2vw;">Windows, MacOS</p></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" style="font-size: 2vw;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Frameworks
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                           <p style="font-size: 2vw;">Swing, React</p></div>
+                        </div>
+                      </div>
+                    </div>
+              
+              <!-- Masthead Subheading-->
+          </div>
+          </div>
+            
+          </div>
+          
+        </div>
+
+        <div class="container" style="padding-top: 5em; background-color: #e4ddf4; color: #282612;"> 
+     
+          <div class="row">
+            <div class="col-md-8">
+              <div class="container d-flex align-items-center flex-column" id="education">
+                <h1 class="h1. MDB heading" style="font-family: fantasy; text-align: center; padding-top: 2rem;">PROFESSIONAL EXPERIENCE</h1>
+                <!-- Icon Divider-->
+                
+                    
+                    <div class="divider-custom-icon" style="padding-top: -1rem;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <ul class="lead" style="font-weight: 400; font-size: 2vw;margin-top: 1em;">
+                      <li>Associate Solution Advisor at Deloitte, India (Offices of the US)</li>
+                    </ul>
+                    <p>
+                      <button class="btn btn-primary" style="background-color: #943d24;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                        Click to find extra details!
+                      </button>
+                    </p>
+                    <div style="min-height: 120px;">
+                      <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                        
+                          <ul class="lead" style="font-weight: 400; font-size: 2vw;margin-top: 1em;">
+                            <li>Built CDC (Customer Data Cloud) as a user profile center and integrated HCL Commerce, Salesforce and Qualtrics with it</li>
+                            <li>Implemented the front-end development of the website, making the site responsive for web, Android and IOS devices</li>
+                            <li>Demoed the implementation of project in front of the client.</li>
+                            <li>Received two Spot Awards, two Applause Awards and got promoted within 2 years of employment at
+                                Deloitte</li>
+      
+                        </ul>
+                      
+                      </div>
+                    </div>
+                      
+                
+                <!-- Masthead Subheading-->
+            </div>
+               
+            </div>
+            <div class="col-md-4">
+              <img src="experience.png" id= "experience" class="img-fluid" style="margin-top: 10vw;">
+            </div>
+              
+            </div>
+            
+          </div>
+         </div>
+    <!-- grid end-->
+    
+    <!-- Footer -->
+<!-- Footer-->
+<footer class="footer text-center" style="background-color: #2d2d2d; padding-top: 3em; padding-bottom: 3em;">
+  <div class="container" id ="contact" style="background-color: #2d2d2d; color: wheat">
+      <div class="row">
+          <!-- Footer Location-->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+              <h4 class="text-uppercase mb-4">Location</h4>
+              <p class="lead mb-0">
+                  75 Peterborough Street
+                  <br />
+                  Boston, MA 02215
+              </p>
+          </div>
+          <!-- Footer Social Icons-->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+              <h4 class="text-uppercase mb-4">Around the Web</h4>
+              <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/lareb-khan-4a7331140" target="_blank"><img src="linkedin.png" style="height: 4em;"></a>
+              <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/" target="_blank"><img src="github.png" style="height: 4em;"></a>
+             
+          </div>
+          <!-- Footer About Text-->
+          <div class="col-lg-4">
+              <h4 class="text-uppercase mb-4">Reach out to me!</h4>
+              <p class="lead mb-0"> 
+                  <a href="mailto:larebkhan96@gmail.com" style="color: wheat;"> Email: larebkhan96@gmail.com </a><br>
+                  <a href="tel:4253709341" style="color: wheat;"> Cell: +14253709341</a>
+                  
+              </p>
+          </div>
+      </div>
+      
+  </div>
+</footer>
+
+<script>
+ var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+var alertTrigger = document.getElementById('liveAlertBtn')
+
+function alert(message, type) {
+  var wrapper = document.createElement('div')
+  wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
+
+  alertPlaceholder.append(wrapper)
+}
+
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', function () {
+    alert('Thank you for visiting the site! The certificates will be available after reaching via email!', 'success')
+  })
+}
+
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+var toastTrigger = document.getElementById('liveToastBtn')
+var toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', function () {
+    var toast = new bootstrap.Toast(toastLiveExample)
+
+    toast.show()
+  })
+}
+
+
+
+</script>
+  <!-- Footer -->
+      </body>
+      </html>
